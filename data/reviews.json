@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Sarah Chen",
+      "subject": "Computer Science",
+      "stars": 5,
+      "review": "Excellent professor! Explains complex algorithms in a way that's easy to understand. Very approachable during office hours and genuinely cares about student success."
+    },
+    {
+      "professor": "Dr. Michael Torres",
+      "subject": "Mathematics",
+      "stars": 4,
+      "review": "Great at breaking down calculus concepts. Homework can be challenging but prepares you well for exams. Always willing to help if you put in the effort."
+    },
+    {
+      "professor": "Dr. Emily Watson",
+      "subject": "Physics",
+      "stars": 3,
+      "review": "Lectures can be dry but the material is well-organized. Tests are fair if you study the textbook. Could improve on making the class more engaging."
+    },
+    {
+      "professor": "Dr. James Park",
+      "subject": "Computer Science",
+      "stars": 5,
+      "review": "Best data structures professor I've had. Makes trees, graphs, and dynamic programming feel intuitive. His coding examples in class are incredibly helpful."
+    },
+    {
+      "professor": "Dr. Lisa Martinez",
+      "subject": "English",
+      "stars": 4,
+      "review": "Passionate about literature and it shows. Gives detailed feedback on essays. Class discussions are thought-provoking and she values every student's perspective."
+    },
+    {
+      "professor": "Dr. Robert Kim",
+      "subject": "Chemistry",
+      "stars": 2,
+      "review": "Moves too fast through material. Labs are poorly organized and the grading is inconsistent. Would recommend taking this course with a different professor."
+    },
+    {
+      "professor": "Dr. Amanda Foster",
+      "subject": "Psychology",
+      "stars": 5,
+      "review": "Engaging lecturer who uses real-world case studies. Exams are straightforward if you attend lectures. One of the best professors in the psychology department."
+    },
+    {
+      "professor": "Dr. David Nguyen",
+      "subject": "Computer Science",
+      "stars": 4,
+      "review": "Solid software engineering course. Teaches practical skills like Git, CI/CD, and agile methodology. Group projects simulate real work environments well."
+    },
+    {
+      "professor": "Dr. Rachel Adams",
+      "subject": "Biology",
+      "stars": 3,
+      "review": "Content is thorough but the pace is fast. Study groups are essential for this class. Extra credit opportunities help balance tough exam scores."
+    },
+    {
+      "professor": "Dr. Kevin O'Brien",
+      "subject": "History",
+      "stars": 5,
+      "review": "Makes history come alive with storytelling. No boring PowerPoints—every lecture feels like a documentary. Fair grading and flexible with deadlines when needed."
+    },
+    {
+      "professor": "Dr. Jennifer Liu",
+      "subject": "Computer Science",
+      "stars": 4,
+      "review": "Strong AI and machine learning course. Challenging but rewarding. Professor Liu stays current with industry trends and brings real research into the classroom."
+    },
+    {
+      "professor": "Dr. Thomas Wright",
+      "subject": "Economics",
+      "stars": 2,
+      "review": "Reads directly from slides and doesn't explain concepts in depth. Office hours are rarely available. Textbook is essentially required to pass."
+    },
+    {
+      "professor": "Dr. Maria Gonzalez",
+      "subject": "Mathematics",
+      "stars": 5,
+      "review": "Patient and thorough. Breaks down linear algebra into manageable pieces. Always available for extra help and creates practice exams that mirror the real thing."
+    },
+    {
+      "professor": "Dr. Chris Thompson",
+      "subject": "Computer Science",
+      "stars": 3,
+      "review": "Knows the material well but struggles with explaining it clearly. Database course covers good content but lectures can be confusing. TA sessions helped more."
+    },
+    {
+      "professor": "Dr. Sophia Patel",
+      "subject": "Philosophy",
+      "stars": 4,
+      "review": "Thought-provoking discussions every class. Grades fairly on papers and values original thinking over memorization. Highly recommend for anyone interested in ethics."
+    },
+    {
+      "professor": "Dr. Andrew Jackson",
+      "subject": "Electrical Engineering",
+      "stars": 4,
+      "review": "Challenging circuits course but extremely rewarding. Lab work is well-designed and the professor is always willing to stay late to help debug circuits."
+    },
+    {
+      "professor": "Dr. Helen Chang",
+      "subject": "Statistics",
+      "stars": 5,
+      "review": "Makes statistics fun—which I never thought was possible. Uses real datasets and Python examples. Best professor for learning data analysis fundamentals."
+    },
+    {
+      "professor": "Dr. Mark Stevens",
+      "subject": "Political Science",
+      "stars": 3,
+      "review": "Interesting topics but the workload is heavy. Weekly essays and mandatory participation. Good if you want to improve your writing but expect to work hard."
+    },
+    {
+      "professor": "Dr. Nina Rodriguez",
+      "subject": "Computer Science",
+      "stars": 5,
+      "review": "Outstanding web development course. Covers React, Next.js, and deployment. Projects are portfolio-worthy and she provides excellent code reviews."
+    },
+    {
+      "professor": "Dr. William Brown",
+      "subject": "Mechanical Engineering",
+      "stars": 4,
+      "review": "Solid thermodynamics course. Clear explanations with lots of worked examples. Exams are tough but fair. Drops the lowest homework grade which is nice."
+    }
+  ]
+}
