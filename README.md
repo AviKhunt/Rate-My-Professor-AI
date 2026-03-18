@@ -2,8 +2,6 @@
 
 An AI-powered professor rating assistant that uses **Retrieval-Augmented Generation (RAG)** to help students find and evaluate professors through natural conversation.
 
-**Live Demo:** [rate-my-professor-ai.vercel.app](https://rate-my-professor-ai.vercel.app/welcome)
-
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=nextdotjs)
 ![Gemini](https://img.shields.io/badge/Gemini_API-blue?logo=google)
 ![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-purple)
@@ -64,20 +62,26 @@ npm install
 cp .env.example .env.local
 # Edit .env.local with your actual API keys
 
+# Load professor data into Pinecone
+node seed.mjs
+
 # Run the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the app.
-
 ### Loading Data into Pinecone
 
-Use the included Jupyter notebook to load professor review data:
+The `seed.mjs` script loads professor review data into your Pinecone vector database. Make sure your Pinecone index is configured with:
+- **Index name:** `chatbot`
+- **Dimensions:** `384`
+- **Metric:** `cosine`
 
+Then run:
 ```bash
-pip install pinecone-client openai python-dotenv huggingface_hub
-jupyter notebook load.ipynb
+node seed.mjs
 ```
+
+Alternatively, use the included Jupyter notebook (`load.ipynb`) for a step-by-step walkthrough.
 
 ## 📁 Project Structure
 
@@ -94,6 +98,7 @@ Rate-My-Professor-AI/
 ├── data/
 │   └── reviews.json        # Professor review dataset
 ├── public/                  # Static assets
+├── seed.mjs                # Pinecone data loading script
 ├── load.ipynb              # Pinecone data loading notebook
 ├── package.json
 ├── tailwind.config.js
